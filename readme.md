@@ -1,5 +1,5 @@
 ##About
-The Business Card Brainfuck is a tiny [Brainfuck](http://en.wikipedia.org/wiki/Brainfuck) interpreter which fits on business cards and is only 512 bytes of code.
+Business Card Brainfuck is a tiny [Brainfuck](http://en.wikipedia.org/wiki/Brainfuck) interpreter which fits on business cards and is only 512 bytes of code. It's inspired by [Business Card Raytracer](http://www.cs.utah.edu/~aek/code/card.cpp) by Paul Heckbert ([more](http://fabiensanglard.net/rayTracing_back_of_business_card/)).  
 It exists mostly to demonstrate how easy it is to implement a Brainfuck interpreter and because I was bored one evening. Indented code is located in bf_indent.c.
 
 ##Code
@@ -19,7 +19,7 @@ d[t]){if(p[r]==']')e++;if(p[r]=='['&&e--==1)break;r--;}r++;}}
 ##Usage
 
 ```
-make all
+make
 ./bf filename
 ```
 
