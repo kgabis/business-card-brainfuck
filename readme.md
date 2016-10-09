@@ -16,6 +16,9 @@ d[t]){if(p[r]==']')e++;if(p[r]=='['&&e--==1)break;r--;}r++;}}
 
 ```
 
+##QR
+![QR Code](qr.png)
+
 ##Usage
 
 ```
