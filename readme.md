@@ -1,8 +1,8 @@
-##About
+## About
 Business Card Brainfuck is a tiny [Brainfuck](http://en.wikipedia.org/wiki/Brainfuck) interpreter which fits on business cards and is only 512 bytes of code. It's inspired by [Business Card Raytracer](http://www.cs.utah.edu/~aek/code/card.cpp) by Paul Heckbert ([more](http://fabiensanglard.net/rayTracing_back_of_business_card/)).  
 It exists mostly to demonstrate how easy it is to implement a Brainfuck interpreter and because I was bored one evening. Indented code is located in bf_indent.c.
 
-##Code
+## Code
 ```c
 #include<stdio.h>  // Krzysztof Gabis 2015
 #include<stdlib.h> // Usage: ./bf program
@@ -16,17 +16,17 @@ d[t]){if(p[r]==']')e++;if(p[r]=='['&&e--==1)break;r--;}r++;}}
 
 ```
 
-##QR
+## QR
 ![QR Code](qr.png)
 
-##Usage
+## Usage
 
 ```
 make
 ./bf filename
 ```
 
-##Examples
+## Examples
 ```
 ./bf hw.bf
 ```
@@ -40,5 +40,5 @@ curl -s "http://esoteric.sange.fi/brainfuck/utils/mandelbrot/mandelbrot.b" > man
 ./bf mandelbrot.bf
 ```
 
-##License
+## License
 [The MIT License (MIT)](http://opensource.org/licenses/mit-license.php)
